@@ -1,0 +1,33 @@
+{
+  "name": "machinepack-twiliolookup",
+  "version": "2.0.0",
+  "description": "Validate number format",
+  "scripts": {
+    "test": "node ./node_modules/test-machinepack-mocha/bin/testmachinepack-mocha.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChanceM/machinepack-twiliolookup.git"
+  },
+  "keywords": [
+    "Twilio Lookup",
+    "machines",
+    "machinepack"
+  ],
+  "author": "ChanceM",
+  "license": "MIT",
+  "dependencies": {
+    "machine": "^3.0.0",
+    "request": "^2.54.0"
+  },
+  "devDependencies": {
+    "test-machinepack-mocha": "^0.2.2"
+  },
+  "machinepack": {
+    "friendlyName": "Twilio Lookup",
+    "machineDir": "machines/",
+    "machines": [
+      "format-lookup"
+    ]
+  }
+}
